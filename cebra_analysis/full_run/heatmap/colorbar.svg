@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="72pt" viewBox="0 0 720 72" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2025-03-31T11:34:45.691687</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.8.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 72 
+L 720 72 
+L 720 0 
+L 0 0 
+L 0 72 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g clip-path="url(#p9b8ad3f316)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAwcAAABNCAYAAADzcxjYAAACyUlEQVR4nO3XS27UQBRA0eteFmtg0ewLaDN5IjbqCnZggMQ5o1bp1SeeRHf79PnL3ti2rZ+/H4+fvx+P1+ur+W0x/7gy/0dv2A7zbzPvzZ323HzfY/nuK+evvlGvZ27eu555O3/5nuNdl97TYv04//qc0/nHoffeehhb3X175vS+3997be/r+eXemzPX9u4XZo7rr+cvzXS2Pmvxpi7ML2aOdx3fsS33fnx++c4r838w81jN9Pz4+YtzqrZ9Mbcv7ru9/nqm1d7F/OquVufvi293Ye/xDV1Yv/SG0/q9vaf5anuu3nFh/2LvdmHm7pn78+N7b595WN8X68f50znLu+6dv1w/nvPO37Cv9izuWP0Nq3NOvxffer33wpn/wMzz+71zzvOLb1vth7nn6k3f3/aczl3csZp5Ht/99bD+bf8764ffv/4/BwAA/lPiAAAAqMQBAAAwxAEAAFCJAwAAYIgDAACgEgcAAMAQBwAAQCUOAACAIQ4AAIBKHAAAAEMcAAAAlTgAAACGOAAAACpxAAAADHEAAABU4gAAABjiAAAAqMQBAAAwxAEAAFCJAwAAYIgDAACgEgcAAMAQBwAAQCUOAACAIQ4AAIBKHAAAAEMcAAAAlTgAAACGOAAAACpxAAAADHEAAABU4gAAABjiAAAAqMQBAAAwxAEAAFCJAwAAYIgDAACgEgcAAMAQBwAAQCUOAACAIQ4AAIBKHAAAAEMcAAAAlTgAAACGOAAAACpxAAAADHEAAABU4gAAABjiAAAAqMQBAAAwxAEAAFCJAwAAYIgDAACgEgcAAMAQBwAAQCUOAACAIQ4AAIBKHAAAAEMcAAAAlTgAAACGOAAAACpxAAAADHEAAABU4gAAABjiAAAAqMQBAAAwxAEAAFCJAwAAYIgDAACgEgcAAMAQBwAAQCUOAACAIQ4AAIBKHAAAAEMcAAAAVf0APYJUhBukRNYAAAAASUVORK5CYII=" id="image8492150f81" transform="scale(1 -1) translate(0 -55.44)" x="90" y="-8.64" width="558" height="55.44"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9b8ad3f316">
+   <rect x="90" y="8.64" width="558" height="55.44"/>
+  </clipPath>
+ </defs>
+</svg>
