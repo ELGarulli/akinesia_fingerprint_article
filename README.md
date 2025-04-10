@@ -8,8 +8,7 @@ In each script, the dataset is imported with the custom function data_load from 
 
 ### Base analysis:
 - Fig 1b: [Tyrosine Hydroxylase quantification](th_staining/th_staining.ipynb)
-- Fig 1f, import/export Linear Mixed Model: [states analysis](linear_mixed_model/LMM_PSD.ipynb)
-- The LMM computation was done in R with the formula: $$model <- lmer( beta_band_value ~ event_type + (1 | subject), data = df_long )$$
+- Fig 1f, import/export Linear Mixed Model: [states analysis](linear_mixed_model/LMM_PSD.ipynb). The LMM computation was done in R with the formula: $$model <- lmer( beta_band_value ~ event_type + (1 | subject), data = df_long )$$
 - Fig 1g, Fig 1h: [PSD and related Boxplot](linear_mixed_model/boxplot_PSD.ipynb)
 
 ### LDA analysis
