@@ -1,10 +1,16 @@
 # akinesia_fingerprint_article
-Contains code used for the analysis and figure creation of the article "Uncovering the Neural Fingerprint of Akinetic States in a Parkinson's Disease Rodent Model"
+Contains code used for the analysis and figure creation of the article "Uncovering the Neural Fingerprint of Akinetic States in a Parkinson's Disease Rodent Model".
 
 ### Dataset Preparation and import
 Code for the computation of kinematic and neural features is in [dataset_preparation](./dataset_preparation). The dataset used is published on Zenodo, [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15163493.svg)](https://doi.org/10.5281/zenodo.15163493).
 
 In each script, the dataset is imported with the custom function data_load from the file [dataset_load](./dataset_preparation/dataset_load.py)
+
+### Base analysis:
+- Fig 1b: [Tyrosine Hydroxylase quantification](th_staining/th_staining.ipynb)
+- Fig 1f, import/export Linear Mixed Model: [states analysis](linear_mixed_model/LMM_PSD.ipynb)
+- The LMM computation was done in R with the formula: $$model <- lmer( beta_band_value ~ event_type + (1 | subject), data = df_long )$$
+- Fig 1g, Fig 1h: [PSD and related Boxplot](linear_mixed_model/boxplot_PSD.ipynb)
 
 ### LDA analysis
 Code for:
