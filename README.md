@@ -6,11 +6,23 @@ Code for the computation of kinematic and neural features is in [dataset_prepara
 
 In each script, the dataset is imported with the custom function data_load from the file [dataset_load](./dataset_preparation/dataset_load.py)
 
+### LDA analysis
+Code for:
+- Fig 2b, Fig 2d, Fig 2e: [LDA kinemtaic analysis](lda_analysis/LDA_quantificaiton_kin.ipynb)
+- Fig 2f, Fig 2h, Fig 2i: [LDA neural analysis](lda_analysis/LDA_quantificaiton.ipynb)
+
 ### CEBRA analysis
 Code for:
-- Fig3a and Fig3e - CEBRA embeddings using kinematic or neural features: [cebra kinematic embedding](cebra_analysis/full_run/main_plot/cebra_neural.ipynb)
-- Fig3b and Fig3f - Boxplot of most relevant features: [neural features](cebra_analysis/importance_scorer/quantification.ipynb), [kinematic features](cebra_analysis/importance_scorer/quantification_kin.ipynb). Embeddings are computed in [compute embeddings](cebra_analysis/importance_scorer/embeddings/compute_train_embedding.ipynb) and KNN classifications are computed launching the [knn_eval shell script](cebra_analysis/importance_scorer/knn_eval.sh)
-- Fig3c and Fig3g - Boxplot of most relevant features: [neural features](cebra_analysis/full_run/heatmap/scatter_neu.ipynb), [kinematic features](cebra_analysis/full_run/heatmap/scatter_kin.ipynb).
-- Fig3d and Fig3h - Confusion Matrixes are built and plotted here: [neural](cebra_analysis/neural_folds_cm/nerual_visualization.ipynb), [kinematics](cebra_analysis/kinematic_folds_cm/kin_visualization.ipynb). And the 11-fold cross-validation runs are computed in: [neural](cebra_analysis/neural_folds_cm/neural_run_offset.py) and [kinematics](cebra_analysis/kinematic_folds_cm/kinematic_run_offset.py) called from the respective shell scripts.
-- Fig4f: Embedding using [only beta](cebra_analysis/discovered_feat_comparison/nerual_visualization_beta.ipynb), embedding using only [Hjorth complexity](cebra_analysis/discovered_feat_comparison/nerual_visualization_complex.ipynb) and related .py
+- Fig 3a and Fig 3e - CEBRA embeddings using kinematic or neural features: [cebra kinematic embedding](cebra_analysis/full_run/main_plot/cebra_neural.ipynb)
+- Fig 3b and Fig 3f - Boxplot of most relevant features: [neural features](cebra_analysis/importance_scorer/quantification.ipynb), [kinematic features](cebra_analysis/importance_scorer/quantification_kin.ipynb). Embeddings are computed in [compute embeddings](cebra_analysis/importance_scorer/embeddings/compute_train_embedding.ipynb) and KNN classifications are computed launching the [knn_eval shell script](cebra_analysis/importance_scorer/knn_eval.sh)
+- Fig 3c and Fig 3g - Boxplot of most relevant features: [neural features](cebra_analysis/full_run/heatmap/scatter_neu.ipynb), [kinematic features](cebra_analysis/full_run/heatmap/scatter_kin.ipynb).
+- Fig 3d and Fig 3h - Confusion Matrixes are built and plotted here: [neural](cebra_analysis/neural_folds_cm/nerual_visualization.ipynb), [kinematics](cebra_analysis/kinematic_folds_cm/kin_visualization.ipynb). And the 11-fold cross-validation runs are computed in: [neural](cebra_analysis/neural_folds_cm/neural_run_offset.py) and [kinematics](cebra_analysis/kinematic_folds_cm/kinematic_run_offset.py) called from the respective shell scripts.
 - Frames for Supplementary Video 2: [animation](cebra_analysis/animation/animation_walk_runwise.ipynb)
+
+### Important features
+Code for:
+- Fig 4a: [scatterplot](lda_analysis/LDA_x_CEBRA.ipynb)
+- Fig 4b: [examples and formulas](hjort_viz/hjorth_viz.ipynb)
+- Fig 4c, Fig 4d: [average temporal evolution of features](modulated_features/avg_neural_time_evo.ipynb)
+- Fig 4e: [group comparison](modulated_features/group_comparison.ipynb)
+- Fig 4f: Embedding using [only beta](cebra_analysis/discovered_feat_comparison/nerual_visualization_beta.ipynb), embedding using only [Hjorth complexity](cebra_analysis/discovered_feat_comparison/nerual_visualization_complex.ipynb) and related .py
