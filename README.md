@@ -1,6 +1,12 @@
 # akinesia_fingerprint_article
 Contains code used for the analysis and figure creation of the article "Uncovering the Neural Fingerprint of Akinetic States in a Parkinson's Disease Rodent Model".
 
+
+The code uses the toolbox <img src="https://github.com/ELGarulli/neurokin/blob/main/docs/favicon.png" height="20" alt="neurokin logo"> [![neurokin](https://img.shields.io/badge/neurokin-package-blue)](https://github.com/ELGarulli/neurokin) , which is also available on PyPi:
+
+    pip install neurokin
+
+The 3D printing files for the recording cap are availabe [in this repo.](https://github.com/ELGarulli/headstage_cap)
 ### Dataset Preparation and import
 Code for the computation of kinematic and neural features is in [dataset_preparation](./dataset_preparation). The dataset used is published on Zenodo, [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15163493.svg)](https://doi.org/10.5281/zenodo.15163493).
 
