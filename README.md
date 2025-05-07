@@ -1,5 +1,5 @@
 # akinesia_fingerprint_article
-Contains code used for the analysis and figure creation of the article "Uncovering the Neural Fingerprint of Akinetic States in a Parkinson's Disease Rodent Model".
+Contains code used for the analysis and figure creation of the article "Uncovering the Neural Fingerprint of Akinetic States in a Parkinson's Disease Rodent Model". Preprint available [here.](https://doi.org/10.1101/2025.04.22.650006)
 
 The code uses the toolbox <img src="https://github.com/ELGarulli/neurokin/blob/main/docs/favicon.png" height="20" alt="neurokin logo"> [![neurokin](https://img.shields.io/badge/neurokin-package-blue)](https://github.com/ELGarulli/neurokin).
 The 3D printing files for the recording cap are availabe [in this repo.](https://github.com/ELGarulli/headstage_cap)
